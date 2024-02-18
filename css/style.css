@@ -1,0 +1,189 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Revalia", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    background: rgb(238, 239, 241);
+    padding-top: 56px;
+    min-height: 700px;
+}
+
+.container {
+    max-width: 1106px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 162px;
+}
+
+.logo {
+    width: 96px;
+    height: 60px;
+}
+
+.header__logo {}
+
+.img__logo {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+}
+
+.nav__item {}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 10%;
+    transition: color 0.3s;
+    text-transform: uppercase;
+}
+
+.nav__link:hover {
+    color: rgb(52, 84, 122);
+}
+
+.hero__content {
+    display: flex;
+}
+
+.hero__img-wrap {
+    width: 50%;
+    text-align: center;
+    width: 360px;
+    padding-bottom: 146px;
+}
+
+.hero__img {}
+
+.hero__desc {
+    max-width: 540px;
+    padding-left: 131px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #000;
+}
+
+.hero__title {
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #727272;
+    text-align: center;
+}
+
+.hero_subtitle {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.btn-wrap {
+    width: 225px;
+    height: 65px;
+    background: #34547a;
+    padding: 25px 41px;
+    margin-bottom: 146px;
+}
+
+.btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about {
+    padding-top: 119px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.about__content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.section__title {
+    font-weight: 500;
+    font-size: 32px;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+.achievements {}
+
+.achievements__list {}
+
+.achievements__item {}
+
+.achievement {}
+
+.achievement__desc {}
+
+.achievement__count {}
+
+.achievement__text {}
