@@ -174,16 +174,37 @@ h6 {
     padding-bottom: 50px;
 }
 
-.achievements {}
+.achievements {
+    background: rgb(52, 84, 122);
+}
 
-.achievements__list {}
+.achievements__list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
-.achievements__item {}
+.achievements__item {
+    display: flex;
+}
 
 .achievement {}
 
-.achievement__desc {}
+.achievement__desc {
+    padding-left: 20px;
+}
 
-.achievement__count {}
+.achievement__count {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #fff;
+}
 
-.achievement__text {}
+.achievement__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #fff;
+}
