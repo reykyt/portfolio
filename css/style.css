@@ -93,6 +93,7 @@ h6 {
 
 .hero__content {
     display: flex;
+    gap: 30px;
 }
 
 .hero__img-wrap {
@@ -192,6 +193,8 @@ h6 {
     display: flex;
     justify-content: space-between;
     column-gap: 40px;
+    row-gap: 20px;
+    flex-wrap: wrap;
 }
 
 .achievements__item {
@@ -321,8 +324,8 @@ h6 {
 
 .projects__list {
     display: flex;
-    flex-wrap: wrap;
     align-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .project__item {
