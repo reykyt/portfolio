@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     height: 100%;
@@ -246,7 +251,9 @@ h6 {
     margin-bottom: 26px;
 }
 
-.skill {}
+.skill .skill__desc:hover {
+    color: rgb(52, 84, 122);
+}
 
 .skill__desc {
     font-weight: 400;
@@ -272,8 +279,7 @@ h6 {
     background-color: #34547a;
 }
 
-
-.skills__img-wrap {
+.skill:hover .skil__meter::-webkit-meter-optimum-value .skills__img-wrap {
     display: flex;
     padding-top: 90px;
     align-items: center;
@@ -485,6 +491,8 @@ footer {
 .footer__content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
 }
 
 .footer__desc {}
@@ -505,5 +513,11 @@ footer {
 .footer__social__list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+}
+
+.form__btn {
+    padding: 20px;
+    min-width: 190px;
 }
